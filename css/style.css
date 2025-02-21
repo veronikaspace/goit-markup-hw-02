@@ -13,7 +13,7 @@ ul {
     text-decoration: none;
 }
 
-.logo-h {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -24,7 +24,7 @@ ul {
     text-decoration: none;
 }
 
-.logo-h .logo-h-part {
+.logo .logo-h-part {
     color: #2e2f42;
 }
 
@@ -111,23 +111,12 @@ h2 {
     background-color: rgb(46, 47, 66);
 }
 
-.logo-f {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo .logo-f-part {
     color: #f4f4fd;
-    text-decoration: none;
 }
 
-.logo-f-part {
-    color: #4d5ae5;
-}
-
-.page-footer > p {
-    color: #f4f4fd;
+.text-footer {
+     color: #f4f4fd;
 }
  
 
