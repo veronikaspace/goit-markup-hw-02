@@ -34,20 +34,21 @@ ul {
     color: #2e2f42;
 }
 
-.page-nav .link:hover {
+.page-nav .link:hover, :focus {
     color: #404bbf;
 }
 
-
+.contact {
+    font-style: normal;
+}
 
 .contact .link {
    text-decoration: none;
    color: #434455;
-   font-style: normal;
    cursor: pointer;
 }
 
-.contact:hover, :focus {
+.contact .link:hover, :focus {
     color: #404bbf;
 }
 
@@ -96,7 +97,7 @@ h2 {
     background-color: rgb(244, 244, 253);
 }
 
-.studio {
+.studio-t {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -105,6 +106,20 @@ h2 {
 
 .text {
     font-size: 16px;
+
+}
+
+.card {
+    background-color: #ffffff
+}
+
+.studio-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .page-footer {
@@ -118,5 +133,7 @@ h2 {
 .text-footer {
      color: #f4f4fd;
 }
+
+
  
 
