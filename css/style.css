@@ -17,15 +17,15 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .logo-h .logo-h-part {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .page-nav .link {
@@ -40,14 +40,14 @@ ul {
 
 
 
-.contact .link{
+.contact .link {
    text-decoration: none;
    color: #434455;
    font-style: normal;
    cursor: pointer;
 }
 
-.contact .link:hover {
+.contact:hover, :focus {
     color: #404bbf;
 }
 
@@ -55,31 +55,56 @@ h1,
 h2 {
     text-align: center;
     font-weight: 700;
+    color: #2e2f42;
 }
 
-.title {
+.page-title {
     background-color: rgb(46, 47, 66);
 }
 
-h1 {
+.title{
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     color: #fff;
+    letter-spacing: 0.02em;
 }
 
-button {
+.page-button {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-h3 {
+.page-button:hover, :focus {
+    background-color: #404bbf;;
+}
+
+.studio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em
 }
 
 .studio-team {
     background-color: rgb(244, 244, 253);
+}
+
+.studio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.text {
+    font-size: 16px;
 }
 
 .page-footer {
