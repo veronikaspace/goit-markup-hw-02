@@ -34,7 +34,7 @@ ul {
     color: #2e2f42;
 }
 
-.page-nav .link:hover, :focus {
+.link:hover, :focus {
     color: #404bbf;
 }
 
@@ -46,10 +46,6 @@ ul {
    text-decoration: none;
    color: #434455;
    cursor: pointer;
-}
-
-.contact .link:hover, :focus {
-    color: #404bbf;
 }
 
 h1,
