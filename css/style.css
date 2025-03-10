@@ -24,7 +24,7 @@ ul {
     text-decoration: none;
 }
 
-.logo .logo-h-part {
+.logo-header {
     color: #2e2f42;
 }
 
@@ -34,18 +34,21 @@ ul {
     color: #2e2f42;
 }
 
-.link:hover, :focus {
+.link:hover, 
+.link:focus {
     color: #404bbf;
 }
 
 .contact {
     font-style: normal;
+    text-decoration: none;
+    color: #434455;
+    cursor: pointer;
 }
 
-.contact .link {
-   text-decoration: none;
-   color: #434455;
-   cursor: pointer;
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
 }
 
 h1,
@@ -55,18 +58,18 @@ h2 {
     color: #2e2f42;
 }
 
-.page-title {
+.section-title {
     background-color: rgb(46, 47, 66);
 }
 
-.title{
+.page-title{
     font-size: 56px;
     line-height: 1.07;
     color: #fff;
     letter-spacing: 0.02em;
 }
 
-.page-button {
+.page-btn {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     background-color: #4d5ae5;
@@ -77,11 +80,12 @@ h2 {
     letter-spacing: 0.04em;
 }
 
-.page-button:hover, :focus {
-    background-color: #404bbf;;
+.page-btn:hover, 
+.page-btn:focus {
+    background-color: #404bbf;
 }
 
-.studio {
+.studio-hidden {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -89,24 +93,19 @@ h2 {
     letter-spacing: 0.02em
 }
 
-.studio-team {
+.section-team {
     background-color: rgb(244, 244, 253);
 }
 
-.studio-t {
+.studio {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.text {
-    font-size: 16px;
-
-}
-
 .card {
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 
 .studio-list {
@@ -114,15 +113,22 @@ h2 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+}
+
+.section-team .studio-list {
+    text-align: center;
+}
+
+.section-team .text {
+   text-align: center; 
 }
 
 .page-footer {
     background-color: rgb(46, 47, 66);
 }
 
-.logo .logo-f-part {
+.logo .logo-footer {
     color: #f4f4fd;
 }
 
