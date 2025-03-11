@@ -39,8 +39,11 @@ ul {
     color: #404bbf;
 }
 
-.contact {
+.style {
     font-style: normal;
+}
+
+.contact {
     text-decoration: none;
     color: #434455;
     cursor: pointer;
